@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-dark text-white">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light px-5 bg-white border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/DEB.png" alt="" style="width: 70px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="#contact">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1634634465913-5bb5600942f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNzc3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="banner">
+            <div class="carousel-caption  d-md-block">
+              <h5>Programming</h5>
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdhbWluZ3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Gamming</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FtaW5nfGVufDB8fDB8fHww" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Practicing</h5>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </header>
+
+  <section id="about" class="about my-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">me</span></h1>
+        <hr/ class="w-25 m-auto">
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="200">
+          <h2>What do you <span class="text-primary"> want to know?</span></h2>
+          <p class="p-2">I am an enthusiastic, self-
+            motivated, reliable, responsible
+            and hard working person. I am a
+            mature team worker and
+            adaptable to all challenging
+            situations.
+            I am able to work well both in a
+            team environment as well as using
+            own initiative. I am able to work well
+            under pressure and adhere to strict
+            deadlines</p>
+            <button type="button" class="btn btn-outline-info">More about me</button>
+
+            <div class="accordion my-5 text-dark" data-aos="zoom-in-right" data-aos-offset="200" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    My Qualifications
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Netaji Subhash Engineering College, Kolkata— B.tech Sep, 2021 - Jul, 2024
+                    Pursuing Computer Science & Engineering. <br><br>
+                    Dr B C Roy Engineering College, Durgapur — Diploma Aug, 2018 - Aug, 2021
+                    Post graduated in Computer Science & Technology. <br><br>
+                    Kulti High School, Kulti — 12th 2017 - 2018
+                    Board : West Bengal Council of Higher Secondary Education. <br><br>
+                    Kulti High School, Kulti — 10th
+                    2015 - 2016
+                    Board : West Bengal Board of Secondary Education
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    My Hobbies
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                     Enthusiastic player of combat games on mobile platforms, honing strategic thinking, quick decision-making, and teamwork skills in virtual battle scenarios.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    My Goals
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    
+                  From My perspective, as a software engineer, my goals may revolve around honing my coding skills, mastering new programming languages or frameworks, and advancing my career in the tech industry. You likely aim to work on challenging projects that push my limits and allow me to express my creativity. Additionally, achieving a healthy work-life balance and finding fulfillment in my work while making a meaningful impact on the world through technology might also be important to me.
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div id="profile-picture-container" class="col-sm-12 col-md-6 col-lg-6 col-12 text-end m-auto" data-aos="zoom-in-left" data-aos-offset="200">
+          <img id="profile-picture" class="rounded mx-auto d-block img-container img-thumbnail"  src="./images/IMG_2047.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="skills py-5 bg-dark" >
+    <div class="container">
+      <div class="text-center">
+        <h1 data-aos="fade-up" data-aos-offset="200">My<span class="text-primary"> skills</span></h1>
+        <hr/ class="w-25 m-auto">
+      </div>
+
+      <div class="row" >
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="200">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-brands fa-html5"></i>
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">
+                HTML, or Hypertext Markup Language, is the standard language for creating web pages and web applications. It provides the structure and content of a webpage through a system of tags and elements.</p>
+              <a href="https://www.w3schools.com/html/" class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="300">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">
+                CSS, or Cascading Style Sheets, complements HTML by defining the visual presentation of web pages, including layout, colors, fonts, and other design aspects.</p>
+              <a href="https://www.w3schools.com/css/" class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="400">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-brands fa-bootstrap"></i>
+              <h5 class="card-title">BOOTSTRAP</h5>
+              <p class="card-text">
+                
+                Bootstrap is a front-end framework that streamlines web development with pre-designed components and responsive layouts, facilitating faster and more consistent website creation across various devices. </p>
+              <a href="https://getbootstrap.com/" class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="200">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-brands fa-js"></i>
+              <h5 class="card-title">JAVASCRIPT</h5>
+              <p class="card-text">
+                JavaScript is a dynamic scripting language widely used for client-side web development, enabling interactive features and behavior on websites. It's also increasingly popular for server-side...</p>
+              <a href="https://www.w3schools.com/js/" class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="300">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-brands fa-java"></i>
+              <h5 class="card-title">JAVA</h5>
+              <p class="card-text">
+                Java is a versatile, object-oriented programming language renowned for its portability and scalability, making it a top choice for building enterprise-level applications and Android mobile apps.</p>
+              <a href="https://www.w3schools.com/java/" class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-down" data-aos-offset="400">
+          <div class="card my-5 text-dark">
+            <div class="card-body">
+              <i class="fa-solid fa-code"></i>
+              <h5 class="card-title">C++</h5>
+              <p class="card-text">
+                
+                C++ is a powerful, high-performance programming language known for its efficiency and versatility, widely used in developing system software, games, and performance-critical applications. 
+              </p>
+              <a href="https://www.w3schools.com/cpp/cpp_intro.asp#:~:text=C%2B%2B%20is%20one%20of%20the,be%20reused%2C%20lowering%20development%20costs." class="btn btn-primary">Click me</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact my-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1500">Feel free<span class="text-primary"> to connect</span></h1>
+        <hr/ class="w-25 m-auto">
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12"  data-aos="fade-right"
+        data-aos-offset="300"  data-aos-easing="ease-in-sine">
+      
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-center p-4" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <img id="connect_picture" src="./images/contact_img.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid text-white text-center p-2 fs-6 bg-primary" >Designed by Debanjan</div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
